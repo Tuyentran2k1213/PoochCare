@@ -1,0 +1,13 @@
+/* this file for reset all css  */
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Jost-Light;
+}
+html, body{
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--bg-color);
+}
