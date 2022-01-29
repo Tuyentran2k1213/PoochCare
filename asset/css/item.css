@@ -1,0 +1,48 @@
+.item {
+  background-color: rgb(249, 247, 254);
+  padding: 100px 0;
+}
+.item__content {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.item__content--col {
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.area-box {
+  padding: 40px 30px;
+  transition: all 0.5s ease 0s;
+  border-radius: 20px;
+  background-color: var(--bg-color);
+  margin-bottom: 30px;
+  max-width: 350px;
+  margin-left: 20px;
+  line-height: 40px;
+}
+.area-box:hover {
+  background-color: rgb(243, 239, 253);
+}
+
+.icon span i {
+  font-size: 30px;
+  color: var(--primary-color);
+  padding-bottom: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+  background-color: transparent;
+  font-weight: 600;
+}
+a .title-head {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000 !important;
+}
+.title-head:hover,
+a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
