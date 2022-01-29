@@ -1,3 +1,34 @@
+header{
+    background-color: tomato;
+}
+.header-nav .nav-link, .header-nav .dropdown-item{
+    position: relative;
+    font-weight: 550;
+    margin-right: 10px;
+    font-size: 1.2em;
+    color: var(--heading-color);
+    transition: all 0.5s;
+}
 .header-nav .nav-link{
-    font-weight: lighter;
+    padding: 14px 0px;
+}
+.header-nav .nav-link::before, .header-nav .dropdown-item::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 10px;
+    left: 5px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    transition: all 0.5s;
+}
+.header-nav .nav-link:hover{
+    color: var(--primary-color);
+}
+.header-nav .nav-link:hover:before{
+    width: 85%;
+}
+.header-nav .nav-link .fa-chevron-down{
+    font-size: 0.6em;
 }
