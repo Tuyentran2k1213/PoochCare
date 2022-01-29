@@ -1,1 +1,5 @@
 @import url("color.css");
+@import url("carousel.css");
+body {
+  font-family: "Jost", sans-serif;
+}
