@@ -1,5 +1,31 @@
 header{
-    background-color: tomato;
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    background-color: var(--bg-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all 0.5s;
+}
+.scroll{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.toTop{
+    display: none;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    right: 10px;
+    bottom: 50px;
+    background-color: var(--primary-color);
+    color: white;
+}
+.toTop:hover{
+    color: white;
+}
+.onTop{
+    display: flex;
 }
 .navBarHeader .navbar-toggler{
     background-color: var(--primary-color);
@@ -12,23 +38,38 @@ header{
     font-size: 1.5rem;  
     color: white;
 }
+.navBarHeader .navbar-brand{
+    font-family: Jost-Medium;
+    color: var(--primary-color);
+    font-size: 34px;
+}
 .theme{
     top: 0px;
     right: 0px;
     font-size: 23px;
+    color: var(--font-color);
 }
-.navBarHeader .navbar-toggler.collapsed .navbar-toggler-icon .fa-bars{
+.theme .fa-moon{
     display: block;
 }
-.navBarHeader .navbar-toggler.collapsed .navbar-toggler-icon .fa-times{
+.theme .fa-sun{
     display: none;
 }
-.navBarHeader .navbar-toggler .navbar-toggler-icon .fa-bars{
+.sun .fa-sun{
+    display: block;
+}
+.sun .fa-moon{
     display: none;
+}
+
+.navBarHeader .navbar-toggler.collapsed .navbar-toggler-icon .fa-bars, .navBarHeader .navbar-toggler .navbar-toggler-icon .fa-times{
+    display: block;
 }
 .navBarHeader .navbar-toggler .navbar-toggler-icon .fa-times{
-    display: block;
     padding: 0px 3px;
+}
+.navBarHeader .navbar-toggler .navbar-toggler-icon .fa-bars, .navBarHeader .navbar-toggler.collapsed .navbar-toggler-icon .fa-times{
+    display: none;
 }
 .header-nav .nav-link, .header-nav .dropdown-item{
     position: relative;
@@ -41,6 +82,10 @@ header{
 }
 .header-nav .nav-link{
     padding: 14px 0px;
+}
+.header-nav .dropdown-menu{
+    background-color: var(--bg-color);
+    border: solid 1px var(--border-color);
 }
 .header-nav .nav-link::before, .header-nav .dropdown-item::before{
     content: '';
@@ -56,9 +101,7 @@ header{
 .header-nav .nav-link:hover{
     color: var(--primary-color);
 }
-.header-nav .nav-link:hover:before{
-    width: 85%;
-}
+
 .header-nav .nav-link .fa-chevron-down{
     font-size: 0.6em;
 }
@@ -72,16 +115,21 @@ header{
     width: 20px;
     left: 40%;
     top: -10px;
-    border-top: solid 1px black;
-    border-left: solid 1px black;
+    border-top: solid 1px var(--border-color);
+    border-left: solid 1px var(--border-color);
     background-color: var(--bg-color);
     transform: rotate(45deg);
     z-index: -1;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
+    .header-nav .nav-link:hover:before{
+        width: 85%;
+    }
+}
+@media (max-width: 991.98px) {
     .theme {
-        top: 12px;
+        top: 30px;
         right: 59px;
         font-size: 23px;
         position: absolute;
