@@ -1,8 +1,10 @@
+.carousel{
+  font-family: Jost-Black;
+}
 .carousel--img {
   position: relative;
 }
 .carousel--img img {
-  height: 939px;
   width: 100%;
   filter: brightness(50%);
   object-fit: cover;

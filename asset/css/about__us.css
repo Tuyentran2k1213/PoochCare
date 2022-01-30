@@ -1,18 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
 html {
   font-size: 16px;
 }
-.container {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
+
 .read-more {
   font-size: 1rem;
   border-bottom: 2px solid var(--primary-color);

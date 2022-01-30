@@ -6,6 +6,7 @@ header{
     padding-top: 1rem;
     padding-bottom: 1rem;
     transition: all 0.5s;
+    z-index: 9;
 }
 .scroll{
     padding-top: 0.5rem;
