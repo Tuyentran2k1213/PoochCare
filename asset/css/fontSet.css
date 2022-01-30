@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Jost-Black;
+    src: url(../font/Jost-Black.ttf);
+}
+@font-face {
+    font-family: Jost-Bold;
+    src: url(../font/Jost-Bold.ttf);
+}
+@font-face {
+    font-family: Jost-ExtraBold;
+    src: url(../font/Jost-ExtraBold.ttf)
+}
+@font-face {
+    font-family: Jost-ExtraLight;
+    src: url(../font/Jost-ExtraLight.ttf)
+}
+@font-face {
+    font-family: Jost-Light;
+    src: url(../font/Jost-Light.ttf)
+}
+@font-face {
+    font-family: Jost-Medium;
+    src: url(../font/Jost-Medium.ttf)
+}
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../font/Jost-Regular.ttf)
+}
+@font-face {
+    font-family: Jost-Thin;
+    src: url(../font/Jost-Thin.ttf)
+}

@@ -1,6 +1,26 @@
+/* set up default color  */
 :root {
   --primary-color: #189a46;
   --secondary-color: #f53626;
-  --bg-color: #fff;
-  --font-color: #696969;
+  --filter-bg: #936be80d;
+  --bg-footer: #111;
+  --our-plans-month: #999;
 }
+
+/* set up light mode color  */
+ [data-theme = "light"] {
+  --bg-color: #fff;
+  --bg-secondary: #936be80d;
+  --font-color: #696969;
+  --heading-color: #000c04;
+  --border-color: #ddd;
+ }
+
+ /* set up color in dark mode  */
+ [data-theme = "dark"] {
+  --bg-color: #151515;
+  --bg-secondary: #222;
+  --font-color: #afafaf;
+  --heading-color: #ddd;
+  --border-color: #333;
+ }

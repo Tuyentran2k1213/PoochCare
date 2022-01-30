@@ -1,0 +1,142 @@
+header{
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    background-color: var(--bg-color);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    transition: all 0.5s;
+}
+.scroll{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.toTop{
+    display: none;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    right: 10px;
+    bottom: 50px;
+    background-color: var(--primary-color);
+    color: white;
+}
+.toTop:hover{
+    color: white;
+}
+.onTop{
+    display: flex;
+}
+.navBarHeader .navbar-toggler{
+    background-color: var(--primary-color);
+}
+.navBarHeader .navbar-toggler .navbar-toggler-icon{
+    height: auto;
+    width: auto;
+    display: block;
+    padding: 4px 5px;
+    font-size: 1.5rem;  
+    color: white;
+}
+.navBarHeader .navbar-brand{
+    font-family: Jost-Medium;
+    color: var(--primary-color);
+    font-size: 34px;
+}
+.theme{
+    top: 0px;
+    right: 0px;
+    font-size: 23px;
+    color: var(--font-color);
+}
+.theme .fa-moon{
+    display: block;
+}
+.theme .fa-sun{
+    display: none;
+}
+.sun .fa-sun{
+    display: block;
+}
+.sun .fa-moon{
+    display: none;
+}
+
+.navBarHeader .navbar-toggler.collapsed .navbar-toggler-icon .fa-bars, .navBarHeader .navbar-toggler .navbar-toggler-icon .fa-times{
+    display: block;
+}
+.navBarHeader .navbar-toggler .navbar-toggler-icon .fa-times{
+    padding: 0px 3px;
+}
+.navBarHeader .navbar-toggler .navbar-toggler-icon .fa-bars, .navBarHeader .navbar-toggler.collapsed .navbar-toggler-icon .fa-times{
+    display: none;
+}
+.header-nav .nav-link, .header-nav .dropdown-item{
+    position: relative;
+    font-weight: 550;
+    margin-right: 10px;
+    font-size: 1.2em;
+    z-index: 10;
+    color: var(--heading-color);
+    transition: all 0.5s;
+}
+.header-nav .nav-link{
+    padding: 14px 0px;
+}
+.header-nav .dropdown-menu{
+    background-color: var(--bg-color);
+    border: solid 1px var(--border-color);
+}
+.header-nav .nav-link::before, .header-nav .dropdown-item::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 10px;
+    left: 5px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    transition: all 0.5s;
+}
+.header-nav .nav-link:hover{
+    color: var(--primary-color);
+}
+
+.header-nav .nav-link .fa-chevron-down{
+    font-size: 0.6em;
+}
+.header-nav .dropdown-menu{
+    left: -70px;
+}
+.header-nav .dropdown-menu::after{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 40%;
+    top: -10px;
+    border-top: solid 1px var(--border-color);
+    border-left: solid 1px var(--border-color);
+    background-color: var(--bg-color);
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+@media (min-width: 992px) {
+    .header-nav .nav-link:hover:before{
+        width: 85%;
+    }
+}
+@media (max-width: 991.98px) {
+    .theme {
+        top: 30px;
+        right: 59px;
+        font-size: 23px;
+        position: absolute;
+    }
+    .header-nav .dropdown-menu::after{
+        left: 47%;
+        top: 49.5px;
+        z-index: 0;
+    }
+}
