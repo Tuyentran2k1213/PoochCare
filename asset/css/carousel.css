@@ -1,0 +1,126 @@
+.carousel--img {
+  position: relative;
+}
+.carousel--img img {
+  height: 939px;
+  width: 100%;
+  filter: brightness(50%);
+  object-fit: cover;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 0;
+  position: absolute;
+  bottom: 137px;
+  left: 888px;
+}
+.owl-theme .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  width: 30px;
+  height: 10px;
+}
+.carousel--text {
+  position: absolute;
+  top: 324px;
+  left: 393px;
+  color: #fff;
+}
+.carousel--text2 {
+  position: absolute;
+  top: 337px;
+  left: 828px;
+  color: #fff;
+}
+.carousel h5 {
+  line-height: 76px;
+  font-weight: 700;
+  font-size: 66px;
+  width: 572px;
+}
+.carousel--text2 h5 {
+  line-height: 76px;
+  font-weight: 700;
+  font-size: 66px;
+  width: 714px;
+}
+.carousel p {
+  font-size: 19px;
+  line-height: 30px;
+  padding-bottom: 27px;
+}
+.button--carousel {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: var(--primary-color);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 12px 35px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-right: 7px;
+}
+.button--carousel2 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 12px 35px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  margin-right: 7px;
+  transition: all 0.5s;
+}
+.button--carousel2:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+/* responsive */
+@media screen and (max-width: 1199px) {
+  .owl-theme .owl-nav.disabled + .owl-dots {
+    margin-top: 0;
+    position: absolute;
+    bottom: 8px;
+    left: 441px;
+  }
+  .carousel--text {
+    position: absolute;
+    top: 324px;
+    left: 44px;
+    color: #fff;
+  }
+  .carousel h5 {
+    line-height: 76px;
+    font-weight: 700;
+    font-size: 66px;
+    width: 822px;
+  }
+  .carousel--text2 {
+    position: absolute;
+    top: 337px;
+    left: 195px;
+    color: #fff;
+  }
+}
