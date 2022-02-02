@@ -1,5 +1,5 @@
 .item {
-  background-color: rgb(249, 247, 254);
+  background-color: var(--background-color);
   padding: 100px 0;
 }
 .item__content {

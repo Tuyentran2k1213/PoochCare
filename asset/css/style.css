@@ -1,7 +1,8 @@
-@import url("./color.css"); /*set up color for css */ 
-@import url("./fontSet.css"); /*set up font for css */ 
-@import url("./reset.css"); /*reset all css */ 
+@import url("./color.css"); /*set up color for css */
+@import url("./fontSet.css"); /*set up font for css */
+@import url("./reset.css"); /*reset all css */
 @import url("./heading.css"); /* build header and scroll to top btn */
 @import url("./carousel.css");
 @import url("./about__us.css");
 @import url("./item.css");
+@import url("./our_plans.css");
