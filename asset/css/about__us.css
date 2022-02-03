@@ -16,6 +16,8 @@ a.read-more:hover {
 /* start about__us */
 section {
   padding: 100px 0;
+  font-family: Jost-Light;
+  font-weight: 1000;
 }
 .section__ab--item {
   max-width: 700px;
@@ -26,6 +28,7 @@ section {
   font-size: 1rem;
   text-transform: uppercase;
   color: var(--secondary-color);
+  font-size: 20px;
 }
 .sd-title {
   font-size: 2.5rem;
@@ -33,6 +36,8 @@ section {
   text-transform: capitalize;
   color: var(--heading-color);
   line-height: 48px;
+  font-family: Jost-Regular;
+  font-weight: 700;
 }
 .para-ab {
   color: var(--font-color);
