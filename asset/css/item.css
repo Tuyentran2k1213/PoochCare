@@ -1,6 +1,8 @@
 .item {
   background-color: var(--filter-bg);
   padding: 100px 0;
+  font-family: Jost-Regular;
+  font-weight: 1000;
 }
 .area-box {
   padding: 40px 30px;
@@ -32,6 +34,7 @@
   font-size: 24px;
   font-weight: 600;
   color: var(--heading-color) !important;
+  font-family: Jost-Regular;
 }
 .title-head:hover,
 a:hover {
