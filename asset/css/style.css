@@ -2,10 +2,13 @@
 @import url("./fontSet.css"); /*set up font for css */
 @import url("./reset.css"); /*reset all css */
 @import url("./heading.css"); /* build header and scroll to top btn */
+
 @import url("./carousel.css"); /*build carousel */
 @import url("./about__us.css"); /*create about us*/
 @import url("./item.css"); /*this is item*/
 @import url("./service.css");
 @import url("./counter-up.css");
+@import url("./our_plans.css");
 @import url("./better-pet.css");
 @import url("./shared.css");
+
