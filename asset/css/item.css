@@ -1,15 +1,8 @@
 .item {
-  background-color: var(--background-color);
+  background-color: var(--filter-bg);
   padding: 100px 0;
-}
-.item__content {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-.item__content--col {
-  padding: 0 15px;
-  display: flex;
-  flex-wrap: wrap;
+  font-family: Jost-Regular;
+  font-weight: 1000;
 }
 .area-box {
   padding: 40px 30px;
@@ -17,12 +10,10 @@
   border-radius: 20px;
   background-color: var(--bg-color);
   margin-bottom: 30px;
-  max-width: 350px;
-  margin-left: 20px;
   line-height: 40px;
 }
 .area-box:hover {
-  background-color: rgb(243, 239, 253);
+  background-color: var(--filter-bg);
 }
 
 .icon span i {
@@ -30,16 +21,20 @@
   color: var(--primary-color);
   padding-bottom: 30px;
 }
-a {
-  color: black;
+.area-box p {
+  color: var(--font-color);
+}
+.item a {
+  color: var(--heading-color);
   text-decoration: none;
   background-color: transparent;
   font-weight: 600;
 }
-a .title-head {
+.item a.title-head {
   font-size: 24px;
   font-weight: 600;
-  color: #000 !important;
+  color: var(--heading-color) !important;
+  font-family: Jost-Regular;
 }
 .title-head:hover,
 a:hover {
