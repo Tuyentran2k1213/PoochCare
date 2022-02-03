@@ -12,8 +12,8 @@
 }
 .ourplans--text h3 {
   font-size: 40px;
-  font-family: Jost-Regular;
-  font-weight: 600;
+  font-family: Jost-Bold;
+  font-weight: 700;
   line-height: 48px;
 }
 .ourplans--text {
@@ -44,15 +44,18 @@
   margin: 15px 0 20px;
   font-weight: 600;
   color: var(--primary-color);
+  font-family: Jost-Bold;
 }
 .box-1__top h6 {
   font-size: 25px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 700;
+  font-family: Jost-Bold;
 }
 .box-1__top label {
   font-size: 25px;
   vertical-align: text-top;
+  font-family: Jost-Bold;
 }
 .box-1__top span {
   font-size: 16px;
@@ -137,4 +140,17 @@
 }
 .box-1__bottom--custom {
   margin-bottom: 50px;
+}
+.box-m {
+  margin-bottom: 75px;
+}
+
+/* responsive */
+@media screen and (max-width: 767px) {
+  .ourplans__box {
+    display: block;
+  }
+  .ourplans--text h3 {
+    font-size: 27px;
+  }
 }
