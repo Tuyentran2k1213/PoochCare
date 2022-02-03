@@ -37,10 +37,10 @@
   font-weight: 800;
 }
 .col-text ul li span {
-  background-color: rgba(243, 241, 241, 0.673);
+  background-color: var(--item-bg);
   border-radius: 50%;
-
   margin: 15px;
+  padding: 4px;
 }
 .col-text ul li span i {
   color: var(--primary-color);

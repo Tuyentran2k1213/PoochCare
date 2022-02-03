@@ -1,5 +1,5 @@
 .ourplans {
-  background-color: var(--background-color);
+  background-color: var(--item-bg);
   padding: 100px 0;
 }
 .ourplans--text h6 {
@@ -27,11 +27,11 @@
 }
 .ourplans__box--details {
   padding: 3.5em 2.5em;
-  background-color: #fff;
+  background-color: var(--bg-color);
   border-radius: 6px;
 }
 .ourplans__box--details-2 {
-  background-color: #fff;
+  background-color: var(--bg-color);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 6px;
   z-index: 1;
@@ -49,6 +49,9 @@
   font-size: 25px;
   line-height: 30px;
   font-weight: 600;
+}
+.light-text {
+  color: var(--heading-color);
 }
 .box-1__top label {
   font-size: 25px;

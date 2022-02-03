@@ -19,7 +19,7 @@
 }
 .counter__content .counter-box .counter-num {
   font-size: 48px;
-  color: var(--bg-color);
+  color: white;
   font-family: Jost-Bold;
 }
 .counter__content .counter-box .counter-text {

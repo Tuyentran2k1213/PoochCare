@@ -15,6 +15,7 @@
   --font-color: #696969;
   --heading-color: #000c04;
   --border-color: #ddd;
+  --item-bg: rgb(147 107 232 / 5%);
 }
 
 /* set up color in dark mode  */
@@ -24,4 +25,5 @@
   --font-color: #afafaf;
   --heading-color: #ddd;
   --border-color: #333;
+  --item-bg: #222;
 }
