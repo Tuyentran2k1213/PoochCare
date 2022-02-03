@@ -37,6 +37,6 @@
 }
 @media only screen and (max-width: 600px) {
   .counter__content .counter-box {
-    width: 100%;
+    width: calc(50% - 30px);
   }
 }
