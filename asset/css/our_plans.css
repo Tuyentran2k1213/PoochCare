@@ -10,12 +10,7 @@
   color: var(--secondary-color);
   font-family: Jost-Medium;
 }
-.ourplans--text h3 {
-  font-size: 40px;
-  font-family: Jost-Bold;
-  font-weight: 700;
-  line-height: 48px;
-}
+
 .ourplans--text {
   text-align: center;
   padding: 26px;

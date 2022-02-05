@@ -1,0 +1,38 @@
+.form-control {
+  width: 455px;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+}
+.updated__mail {
+  display: flex;
+  justify-content: space-between;
+}
+.updated__content {
+  padding: 0 227px;
+}
+.email-input {
+  border-radius: 10px;
+}
+.btn-cus {
+  padding: 14px 48px;
+}
+.updated {
+  margin: 103px 0;
+}
+@media screen and (max-width: 767px) {
+  .updated__mail {
+    display: block;
+  }
+  .updated__content {
+    padding: 0 0;
+  }
+  .email-input {
+    width: 327px;
+  }
+  .btn-cus {
+    width: 327px;
+    margin-top: 15px;
+  }
+}
