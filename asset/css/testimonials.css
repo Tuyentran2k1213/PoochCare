@@ -1,5 +1,5 @@
 .testi {
-  background-color: var(--background-color);
+  background-color: var(--bg-secondary);
   margin-top: 100px;
   padding-top: 90px;
 }
@@ -8,7 +8,7 @@
   margin-bottom: 50px;
 }
 .testi__box--bg {
-  background-color: #fff;
+  background-color: var(--bg-color);
   border-radius: 15px;
   padding: 0 !important;
   margin-right: 18px;
@@ -42,10 +42,12 @@
   font-size: 20px;
   font-family: Jost-Bold;
   margin-bottom: 0;
+  color: var(--heading-color);
 }
 .testi__img--text p {
   font-size: 17px;
   font-family: Jost-ExtraLight;
+  color: var(--font-color);
 }
 .testi__box {
   padding: 57px 44px;
