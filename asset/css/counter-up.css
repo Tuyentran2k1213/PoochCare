@@ -19,7 +19,8 @@
 }
 .counter__content .counter-box .counter-num {
   font-size: 48px;
-  color: var(--bg-color);
+  color: #fff;
+
   font-family: Jost-Bold;
 }
 .counter__content .counter-box .counter-text {
@@ -40,6 +41,6 @@
 }
 @media only screen and (max-width: 600px) {
   .counter__content .counter-box {
-    width: 100%;
+    width: calc(50% - 30px);
   }
 }

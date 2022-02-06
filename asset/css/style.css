@@ -2,13 +2,6 @@
 @import url("./fontSet.css"); /*set up font for css */
 @import url("./reset.css"); /*reset all css */
 @import url("./heading.css"); /* build header and scroll to top btn */
-<<<<<<< Updated upstream
-@import url("./carousel.css");
-@import url("./about__us.css");
-@import url("./item.css");
-@import url("service.css");
-@import url("counter-up.css");
-=======
 
 @import url("./carousel.css"); /*build carousel */
 @import url("./about__us.css"); /*create about us*/
@@ -17,6 +10,11 @@
 @import url("./counter-up.css");
 @import url("./our_plans.css");
 @import url("./better-pet.css");
-@import url("./shared.css");
+
 @import url("video__scroll.css");
->>>>>>> Stashed changes
+
+@import url("./footer.css");
+@import url("./shared.css");
+@import url("./testimonials.css");
+@import url("./updated.css");
+

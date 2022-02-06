@@ -5,22 +5,25 @@
   --filter-bg: #936be80d;
   --bg-footer: #111;
   --our-plans-month: #999;
+  --background-color: #f9f7fe;
 }
 
 /* set up light mode color  */
- [data-theme = "light"] {
+[data-theme="light"] {
   --bg-color: #fff;
   --bg-secondary: #936be80d;
   --font-color: #696969;
   --heading-color: #000c04;
   --border-color: #ddd;
- }
+  --item-bg: rgb(147 107 232 / 5%);
+}
 
- /* set up color in dark mode  */
- [data-theme = "dark"] {
+/* set up color in dark mode  */
+[data-theme="dark"] {
   --bg-color: #151515;
   --bg-secondary: #222;
   --font-color: #afafaf;
   --heading-color: #ddd;
   --border-color: #333;
- }
+  --item-bg: #222;
+}

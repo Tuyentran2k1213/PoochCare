@@ -1,0 +1,123 @@
+.wrapper {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+  }
+  
+  .video-main {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .video {
+    height: 60px;
+    width:60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 100%;
+    background: transparent;
+    color: var(--primary-color);
+    display: inline-block;
+    background: white;
+    z-index: 999;
+    transition: all 0.3s ease-out;
+  }
+  .video:hover{
+      transform: scale(1.1);
+  }
+
+  .lity-close{
+      position: absolute;
+      right: 9.5%;
+      top: 1%;
+  }
+  
+  @keyframes waves {
+    0% {
+      -webkit-transform: scale(0.2, 0.2);
+      transform: scale(0.2, 0.2);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+      opacity: 0.9;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    }
+    100% {
+      -webkit-transform: scale(0.9, 0.9);
+      transform: scale(0.9, 0.9);
+      opacity: 0;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+  }
+  
+  .fa-play:before {
+    content: "\f04b";
+  }
+  
+  .waves {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #189a4663;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    border-radius: 100%;
+    right: -45px;
+    bottom: -45px;
+    z-index: -1;
+     -webkit-animation: waves 3s ease-in-out infinite;
+    animation: waves 3s ease-in-out infinite;
+  }
+          
+  .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+  }
+  
+  .wave-2 {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  .wave-3 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+  }
+  .wave-4 {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+  }
+  .wave-5 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+  }
+  .wave-6 {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+  }
+
+
+  .lity-iframe-container iframe{
+      height: 70%;
+      width: 80%;
+      top: 15%;
+      left: 10%;
+  }
+  .better-pet-image{
+      border-radius: 10px;
+  }
+  @media (max-width: 575.98px) {
+    .lity-iframe-container iframe{
+    height: 100%;
+      width: 100%;
+      top: 0%;
+      left: 0%;
+    }
+    .lity-close{
+      right: 0%;
+      top: -15%;
+  }
+  }

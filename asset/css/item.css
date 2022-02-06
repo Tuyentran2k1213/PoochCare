@@ -1,5 +1,5 @@
 .item {
-  background-color: var(--filter-bg);
+  background-color: var(--item-bg);
   padding: 100px 0;
   font-family: Jost-Regular;
   font-weight: 1000;
@@ -13,7 +13,7 @@
   line-height: 40px;
 }
 .area-box:hover {
-  background-color: var(--filter-bg);
+  background-color: var(--item-bg);
 }
 
 .icon span i {
