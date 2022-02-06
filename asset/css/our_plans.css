@@ -26,7 +26,7 @@
   border-radius: 6px;
 }
 .ourplans__box--details-2 {
-  background-color: #fff;
+  background-color: var(--bg-color);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 6px;
   z-index: 1;
@@ -46,6 +46,9 @@
   line-height: 30px;
   font-weight: 700;
   font-family: Jost-Bold;
+  color: var(--heading-color);
+}
+.light-text {
   color: var(--heading-color);
 }
 .box-1__top label {

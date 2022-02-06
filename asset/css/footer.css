@@ -1,0 +1,43 @@
+footer{
+    background-color: var(--bg-footer);
+}
+.content-footer{
+    color: white;
+}
+.footer-contact{
+    margin-bottom: 1.5rem;
+}
+.footer-contact li, .footer-contact li a{
+    color: var(--font-color);
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+.footer-contact li{
+    margin: 10px 0px;
+}
+.footer-contact li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+.copyright{
+    border-top: 1px solid rgba(103, 99, 99, 0.14);
+    color: var(--font-color);
+    line-height: 1.5rem;
+}
+.copyright a{
+    color: #f53626;
+}
+.copyright a:hover{
+    color: #ee3524;
+    text-decoration: underline;
+}
+.content-footer{
+    font-family: Jost-Bold;
+    font-size: 1.2rem;
+    margin: 1.5rem 0rem;
+}
+.footer-contact li p span{
+    font-family: Jost-Bold;
+}
