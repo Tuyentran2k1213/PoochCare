@@ -4,13 +4,12 @@
   padding-left: 20px;
   padding-right: 20px;
   font-size: 16px;
+  margin-right: 10px;
 }
 .updated__mail {
   display: flex;
-  justify-content: space-between;
-}
-.updated__content {
-  padding: 0 227px;
+  justify-content: center;
+  align-items: center;
 }
 .email-input {
   border-radius: 10px;
@@ -23,16 +22,17 @@
 }
 @media screen and (max-width: 767px) {
   .updated__mail {
-    display: block;
+    flex-direction: column;
+    width: 100%;
   }
-  .updated__content {
-    padding: 0 0;
+  .form-control{
+    margin-right: 0px;
   }
   .email-input {
-    width: 327px;
+    width: 100%;
   }
   .btn-cus {
-    width: 327px;
+    width: 100%;
     margin-top: 15px;
   }
 }

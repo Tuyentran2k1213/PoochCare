@@ -42,13 +42,9 @@
   background: transparent;
   border: 0;
 }
-@media screen and (min-width: 1120px) {
-  /* #featured-video.is-sticky {
-    transform: translateX(-80%);
-  } */
-}
-@media screen and (min-width: 1300px) {
-  /* #featured-video.is-sticky {
-    transform: translateX(-115%);
-  } */
-}
+@media (max-width: 575.98px) { 
+  .ytp-cued-thumbnail-overlay-image{
+    width: 100vw;
+  }
+ }
+
