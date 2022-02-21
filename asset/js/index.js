@@ -1,7 +1,4 @@
-const lightDarkMode = document.querySelector(".theme");
-const closeVideoSticky = document.querySelector(".close-video");
-const videoSticky = document.querySelector("#featured-video");
-const mode = document.querySelector("html");
+import {lightDarkMode, closeVideoSticky, videoSticky, mode} from './variable.js';
 
 //script for light and dark mode
 var isLight = true;
@@ -39,9 +36,6 @@ function stopStickyVideo() {
   }
   //   if( window. )
 
-  console.log(window.pageYOffset);
-  console.log(wrapVideo.offsetTop);
-  console.log(window.innerHeight);
 }
 
 // Close video sticky
